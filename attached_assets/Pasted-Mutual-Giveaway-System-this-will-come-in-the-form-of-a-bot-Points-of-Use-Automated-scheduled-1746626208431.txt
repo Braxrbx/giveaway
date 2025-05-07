@@ -1,0 +1,41 @@
+Mutual Giveaway System
+
+this will come in the form of a bot
+
+Points of Use:
+Automated scheduled posting of mutual giveaways
+Invite Tracking
+Quota Tracking
+
+Detailed Explanation:
+
+Automated Scheduled Posting:
+
+Staff members of the marketing department can go about doing mutual giveaways, but the operation on our server side will be handled by the bot. Once a staff member gets a mutual giveaway, they will go into the staff server and run /requestgw [server-name] [perm-server-invite] [server-member-count] [our-ping] [their ping] [their prize] - MAKE SURE WHEN INPUTTING THE PINGS, IT DOESNT ACTUALLY PING THE WHOLE CHANNEL 😭
+
+Once they have requested a giveaway, it will be sent into a specific channel in the management server with the following information as an embed:
+The Requester / Staff Member (in a form of a ping using <@id> )
+Server Invite (Staff Member's invite to track invites)
+Server Name
+Server Member Count
+Our Ping
+Their Ping
+Their Prize
+
+Anyone who has access to the channel can approve the giveaway, or deny it. If the giveaway gets approved, it gets scheduled to be posted in our mutual giveaway channel in coldd. If it gets denied, there will be a required message prompt where it has to explain why it was denied.
+
+For the posting part of the mutual giveaways, it will run on a defined schedule.
+
+Ping Limits:
+@/everyone ping: 1 per day
+@/here 1 per day, 2 if there is no @/everyone ping posted that day
+@Mutual Giveaways, no limit
+No ping, no limit
+
+If there hasnt been an @/everyone mutual giveaway in the past 24 hours, then it will be sent instantly, if there has been a @/everyone giveaway posted in the past 24 hours, it will be scheduled to be posted once that 24 hour time limit is up, same logic for the @/here pings, except if there has already been both a @/here giveaway & a @/everyone giveaway posted in the past 24 hours, it will be scheduled to post once that 24 hour time limit for both giveaways has completed
+
+No time limit for mutual giveaway pings & no ping giveaways
+
+Once a mutual giveaway request has been approved, it will either dm the staff member who requested that their giveaway for [server name] has been approved, with either a discord timestamp showing the time it will be sent, or that it has been sent instantly, or if it has been denied, stating the reason the approver gave, if the giveaway request did not get posted instantly and had to wait in line, the staff member who requested the giveaway will get dm'ed saying that the giveaway has been posted whenever the giveaway gets posted. This will all be logged in a seperate channel aswell in the management server.
+
+There will also be two features to track invites, one command /checkinvites can only be run in the staff server, which will show the staff members invites on all mutual giveaways for the past week on a basis from Sunday AEST
